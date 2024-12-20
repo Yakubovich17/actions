@@ -1,6 +1,6 @@
 name: First Actions Workflow 
 run-name: ${{ github.actor }} is running GitHub Actions 🚀 script 
-onn: [push]
+on: [push]
 jobs:
   demonstrate-first-workflow:
     runs-on: ubuntu-latest

@@ -1,6 +1,6 @@
 name: Second Actions Workflow
-run-name: ${{ github.actor }} is learning GitHub 
-Actions on: [push]
+run-name: ${{ github.actor }} is learning GitHub Actions
+on: [push]
 jobs:
   display-python-version:
     runs-on: ubuntu-latest
